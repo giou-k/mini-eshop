@@ -32,6 +32,7 @@ func (db *Database) ProductDeletebyID(inputID string) error {
 	}
 
 	return errors.Wrap(db.Delete(&product).Error, "unable to delete product")
+	//return errors.Wrap(db.Unscoped().Delete(&product.ID).Error, "unable to delete product")
 }
 
 func (db *Database) ProductSave(product *model.Product) error {

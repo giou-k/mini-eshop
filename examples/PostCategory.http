@@ -1,0 +1,49 @@
+###
+
+# curl -X POST http://localhost:8080/category
+POST http://localhost:8080/category
+Content-Type: application/json
+
+{
+  "title": "rre",
+  "position": 1,
+  "image_url": "imgur.com1"
+}
+
+###
+
+# curl -X POST http://localhost:8080/category
+POST http://localhost:8080/category
+Content-Type: application/json
+
+{
+  "title": "title2",
+  "position": 2,
+  "image_url": "imgur.com2"
+}
+
+###
+
+# curl -X POST http://localhost:8080/category
+POST http://localhost:8080/category
+Content-Type: application/json
+
+{
+  "title": "title3",
+  "position": 3,
+  "image_url": "imgur.com2"
+}
+
+###
+
+# curl -X POST http://localhost:8080/category
+POST http://localhost:8080/category
+Content-Type: application/json
+
+{
+  "title": "title4",
+  "position": 4,
+  "image_url": "imgur.com2"
+}
+
+###

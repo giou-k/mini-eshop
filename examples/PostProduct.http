@@ -1,0 +1,53 @@
+###
+
+# curl -X POST http://localhost:8080/product
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "title": "title11221",
+  "image_url": "imgur.com1",
+  "price": 1.11,
+  "description": "description"
+}
+
+###
+
+# curl -X POST http://localhost:8080/product
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "title": "title2",
+  "image_url": "imgur.com2",
+  "price": 2.22,
+  "description": "2description"
+}
+
+###
+
+# curl -X POST http://localhost:8080/product
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "title": "title2",
+  "image_url": "imgur.com2",
+  "price": 2.22,
+  "description": "2description"
+}
+
+###
+
+# curl -X POST http://localhost:8080/product
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "title": "title2",
+  "image_url": "imgur.com2",
+  "price": 2.22,
+  "description": "2description"
+}
+
+###

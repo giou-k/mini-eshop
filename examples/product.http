@@ -1,0 +1,26 @@
+
+GET http://localhost:8080/products
+Accept: application/json
+
+###
+
+DELETE  http://localhost:8080/product/4
+
+###
+# if product is delete it returns an error
+PATCH http://localhost:8080/product/2
+Content-Type: application/json-patch+json
+
+{
+  "title": "update",
+  "image_url": "imgur.com2",
+  "price": 2.22,
+  "description": "2descriptionUpdate"
+}
+
+###
+# if product is delete it returns null
+GET http://localhost:8080/product/3
+Accept: application/json
+
+###

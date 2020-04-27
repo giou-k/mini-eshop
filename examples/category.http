@@ -1,0 +1,25 @@
+
+GET http://localhost:8080/categories
+Accept: application/json
+
+###
+
+DELETE  http://localhost:8080/category/1
+
+###
+# if category is delete it returns an error
+PATCH http://localhost:8080/category/3
+Content-Type: application/json-patch+json
+
+{
+  "title": "del3",
+  "position": 333,
+  "image_url": "del333"
+}
+
+###
+# if category is delete it returns null
+GET http://localhost:8080/category/1
+Accept: application/json
+
+###
